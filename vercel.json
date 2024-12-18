@@ -7,30 +7,6 @@
     "routes": [{
         "src": "/(.*)",
         "dest": "/api/index.php"
-    },{
-        "src":"/styles/main.css",
-        "dest":"/public/styles/main.css"
-    },{
-        "src":"/styles/landing.css",
-        "dest":"/public/styles/landing.css"
-    },{
-        "src":"/styles/login.css",
-        "dest":"/public/styles/login.css"
-    },{
-        "src":"/styles/register.css",
-        "dest":"/public/styles/register.css"
-    },{
-        "src":"/(.*)",
-        "dest":"/public/assets/arrow-right.png"
-    },{
-        "src":"/(.*)",
-        "dest":"/public/assets/facebook.png"
-    },{
-        "src":"/(.*)",
-        "dest":"/public/assets/google.png"
-    },{
-        "src":"/(.*)",
-        "dest":"/public/assets/logo.png"
     }
     ],
     "env": {
