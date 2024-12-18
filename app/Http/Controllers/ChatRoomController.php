@@ -12,10 +12,12 @@ class ChatRoomController extends Controller
 
         if($id != null){
             $chats = ChatRoom::find($id)->chat;
-            dd($chats);
-            return view('home.chatroom', compact('chats'));
+            // dd($chats);
+            return view('home.chatroom', compact('id','chats'));
+        }else{
+            $id = null;
         }
-        return view('home.chatroom');
+        return view('home.chatroom', compact('id'));
     }
 
 }

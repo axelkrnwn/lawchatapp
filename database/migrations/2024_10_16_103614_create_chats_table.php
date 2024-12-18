@@ -15,7 +15,8 @@ return new class extends Migration
             $table->id();
             $table->unsignedBigInteger('chat_room_id');
             $table->foreign('chat_room_id')->references('id')->on('chat_rooms');
-            $table->string('content');
+            $table->string('content', 10000);
+            $table->integer("is_generated");
             $table->timestamps();
         });
     }

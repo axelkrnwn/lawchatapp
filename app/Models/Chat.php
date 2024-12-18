@@ -13,7 +13,8 @@ class Chat extends Model
 
     protected $fillable = [
         "chat_room_id",
-        "content"
+        "content",
+        "is_generated"
     ];
 
     public function chatRoom():BelongsTo{
