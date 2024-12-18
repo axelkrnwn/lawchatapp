@@ -5,11 +5,11 @@
         "api/index.php": { "runtime": "vercel-php@0.6.1" }
     },
     "routes": [{
-        "src": "/styles/landing.css",
+        "src": "styles/landing.css",
         "dest": "/public/styles/landing.css"
     },{
-        "src": "/assets/(.*)",
-        "dest": "/public/assets/"
+        "src": "assets/(.*)",
+        "dest": "public/assets/"
     }, {
         "src": "/(.*)",
         "dest": "/api/index.php"
