@@ -8,16 +8,16 @@
         "src": "/(.*)",
         "dest": "/api/index.php"
     },{
-        "src":"/(.*)",
+        "src":"/styles/main.css",
         "dest":"/public/styles/main.css"
     },{
-        "src":"/(.*)",
+        "src":"/styles/landing.css",
         "dest":"/public/styles/landing.css"
     },{
-        "src":"/(.*)",
+        "src":"/styles/login.css",
         "dest":"/public/styles/login.css"
     },{
-        "src":"/(.*)",
+        "src":"/styles/register.css",
         "dest":"/public/styles/register.css"
     },{
         "src":"/(.*)",
